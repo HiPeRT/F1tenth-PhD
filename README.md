@@ -12,8 +12,8 @@ This is official repository of the course on Connected and Autonomous Vehicles f
 
 ## Folder structure
 
-- Code/ --> Code snippets & tutorials <i>(Coming soon..</i>
-- Slides/ --> Course slides <i>(Coming soon..</i>
+- Code/ --> Code snippets & tutorials <i>(Coming soon..)</i>
+- Slides/ --> Course slides <i>(Coming soon..)</i>
 
 ## How to play with the demos
 
