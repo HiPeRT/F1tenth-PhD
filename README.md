@@ -19,6 +19,6 @@ This is official repository of the course on Connected and Autonomous Vehicles f
 
 In order to run the demos you will need to install Ubuntu 22.04 LTS and ROS2 Humble (<a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html" target="_blank">link</a>).
 
-I prepared a VM image with all necessary dependencies. You can find it in the <a href="https://drive.google.com/drive/folders/1Du9aVF0Av9aC425XFIEXZprycsSdnj4S?usp=sharing" target="_blank">Google Drive folder</a>. You will need to install the VirtualBox tool for your local machine. You can find it <a href="http://virtualbox.org/wiki/Downloads" target="_blank">here</a>.
+I prepared a VM image with all necessary dependencies. You can find it in the <a href="https://drive.google.com/drive/folders/1Du9aVF0Av9aC425XFIEXZprycsSdnj4S?usp=sharing" target="_blank">Google Drive folder</a>. You will need to install the VMWare Player application for your local machine. You can find it <a href="https://vmware-player.en.softonic.com/" target="_blank">here</a>.
 
 Username and password are set by default: ubuntu | ubuntu.
