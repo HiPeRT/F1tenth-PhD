@@ -6,14 +6,14 @@
 <p>
 This is official repository of the course on Connected and Autonomous Vehicles for PhD students of the <i>Motorvehicle University of Emilia Romagna (MUNER)</i> and for the <i>Computer and Data Science for Technological and Social Innovation (CDS-TSI)</i> at University of Modena and Reggio Emilia, Year 2022/23, at University of Modena and Reggio Emilia
 
-<a href="https://hipert.unimore.it/people/paolob" target="_blank">Teacher's personal page</a> | <a href="Slides/00 - Collaborative tools.pdf" target="_blank">How to use Git to work with this repo</a> | <a href="https://drive.google.com/drive/folders/1Du9aVF0Av9aC425XFIEXZprycsSdnj4S?usp=sharing" target="_blank">Lab material on Google Drive</a>
+<a href="https://hipert.unimore.it/people/paolob" target="_blank">Teacher's personal page</a> | <a href="Slides/Collaborative tools.pdf" target="_blank">How to use Git to work with this repo</a> | <a href="https://drive.google.com/drive/folders/1Du9aVF0Av9aC425XFIEXZprycsSdnj4S?usp=sharing" target="_blank">Lab material on Google Drive</a>
 
 </p>
 
 ## Folder structure
 
-- Code/ --> Code snippets & tutorials <i>(Coming soon..)</i>
-- Slides/ --> Course slides <i>(Coming soon..)</i>
+- Code/ --> Code snippets & tutorials
+- Slides/ --> Course slides
 
 ## How to play with the demos
 
