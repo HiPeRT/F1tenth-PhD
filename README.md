@@ -19,6 +19,26 @@ This is official repository of the course on Connected and Autonomous Vehicles f
 
 In order to run the demos you will need to install Ubuntu 22.04 LTS and ROS2 Humble (<a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html" target="_blank">link</a>).
 
-I prepared a VM image with all necessary dependencies. You can find it in the <a href="https://drive.google.com/drive/folders/1Du9aVF0Av9aC425XFIEXZprycsSdnj4S?usp=sharing" target="_blank">Google Drive folder</a>. You will need to install the VMWare Player application for your local machine. You can find it <a href="https://vmware-player.en.softonic.com/" target="_blank">here</a>.
+I prepared a VM image with all necessary dependencies. You can find it in the <a href="https://drive.google.com/drive/folders/1Du9aVF0Av9aC425XFIEXZprycsSdnj4S?usp=sharing" target="_blank">Google Drive folder</a>. You will need to install the VMWare Player application for your local machine. You can find it <a href="https://vmware-player.en.softonic.com/" target="_blank">here</a>. Username and password are set by default: ubuntu | ubuntu.
 
-Username and password are set by default: ubuntu | ubuntu.
+### Set up a workspace (if you are not using the Virtual Machine)
+
+Create a workspace folder for your software (do this only once)
+```
+$ mkdir sim_ws
+$ cd sim_ws
+$ mkdir src
+```
+
+Create the source folder, and clone the following repositories:
+
+```
+$ cd sim_ws/src
+$ git clone https://git.hipert.unimore.it/adx/simulator/f1tenth_gym_ros.git
+$ git checkout ad_course
+```
+
+
+Once you set up the workspace, you can follow instructions on the <a href="LAB_CHEATSHEET.md">Lab cheatsheet</a>
+
+
