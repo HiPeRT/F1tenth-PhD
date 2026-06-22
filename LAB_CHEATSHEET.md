@@ -74,11 +74,15 @@ $ ros2 launch follow_the_gap follow_the_gap_launch.py
 
 You shall run the simulator and Rviz2, as previously explained.
 
-Then, within a new terminal you can setup a new enviroment as follows:
+Then, within a new terminal you can build your application as follows:
 ```
 $ source /opt/ros/humble/setup.bash
 $ cd /home/ubuntu/Code
 $ colcon build
+```
+
+Then, run it.
+```
 $ source install/setup.bash
 $ ros2 control_template control_template
 ```
