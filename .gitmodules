@@ -1,15 +1,12 @@
-[submodule "base_workspace"]
+[submodule "Code/base_workspace"]
 	path = Code/base_workspace
 	url = https://git.hipert.unimore.it/teach/f1tenth/base_workspace.git
-
-[submodule "controller_template"]
+[submodule "Code/controller_template"]
 	path = Code/controller_template
 	url = https://git.hipert.unimore.it/teach/f1tenth/controller_template.git
-
-[submodule "follow_the_gap"]
+[submodule "Code/follow_the_gap"]
 	path = Code/follow_the_gap
 	url = https://git.hipert.unimore.it/teach/f1tenth/follow_the_gap.git
-
-[submodule "pure_pursuit_example"]
+[submodule "Code/pure_pursuit_example"]
 	path = Code/pure_pursuit_example
 	url = https://git.hipert.unimore.it/teach/f1tenth/pure_pursuit_example.git
