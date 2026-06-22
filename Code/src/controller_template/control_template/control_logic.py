@@ -16,4 +16,5 @@ def compute_command(waypoints, speeds, x, y, yaw, current_speed):
     
     # add your control algorithm here
     # typically you will find the nearest waypoint, compute the desired steering angle and speed, and return them as a command
-    return 0, 0, 0, 0
+    # return steering, speed, goal_x, goal_y. If you are not using the latter two, just return 0.0
+    return 0.0, 0.0, 0.0, 0.0

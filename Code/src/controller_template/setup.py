@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'control_node = control_node.control_node:main',
+            'control_template = control_template.control_node:main',
         ],
     },
 )
