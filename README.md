@@ -14,7 +14,7 @@ This is official repository of the course on Connected and Autonomous Vehicles f
 
 - Code/ --> Code snippets & tutorials
 - Slides/ --> Course slides
-- Tests/ --> Evaluation
+- Test/ --> Evaluation
 
 ## How to play with the demos
 
