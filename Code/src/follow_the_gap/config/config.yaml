@@ -1,0 +1,13 @@
+FollowGap_node:
+  ros__parameters:
+    gap_threshold: 1.5
+    fov_degree: 150.0
+    mean_filter_window: 3
+
+    car_half_width: 0.2
+    margin: 0.3
+    disp_threshold: 0.5
+
+    velocity_gain: 0.5
+    max_velocity: 4.0
+    min_velocity: 0.5

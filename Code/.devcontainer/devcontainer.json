@@ -1,0 +1,42 @@
+{
+    "name": "Unimore Navigator devcontainer",
+    "privileged": true,
+    "dockerFile": "../docker/humble.Dockerfile",  // Chose one of the docker file from the docker folder
+    "settings": {},
+    "remoteUser": "${env:USER}",
+    "build": {
+        "args": {
+            "USER": "${env:USER}"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions":[
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-themes",
+                "twxs.cmake",
+                "donjayamanne.python-extension-pack",
+                "eamodio.gitlens",
+                "ms-iot.vscode-ros",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-vscode.cmake-tools",
+                "ms-azuretools.vscode-docker",
+                "xaver.clang-format",
+                "redhat.vscode-xml"
+            ]
+        }
+    },
+    "containerEnv": {
+        "DISPLAY": "unix:0",
+        "ROS_AUTOMATIC_DISCOVERY_RANGE": "SYSTEM",
+        "TZ": "Europe/Rome"
+    },
+    "runArgs": [
+        "--net=host",
+        "--pid=host",
+        "--ipc=host",
+        "-e", "DISPLAY=${env:DISPLAY}",
+        "--device=/dev/ttyUSB1"
+
+    ]
+}
